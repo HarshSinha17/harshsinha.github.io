@@ -1,0 +1,96 @@
+body {
+ text-align: center;
+ background-color: black;
+ letter-spacing: 2px;
+ color: white;
+}
+.logo{
+width: 40%;
+aspect-ratio: 1:1;
+border-radius: 50%;
+}
+.cont{
+float: right;
+color: white;
+border: 1px solid transparent;
+padding: 4px;
+font-size: 4vh;
+border-radius: 10px;
+text-decoration: none; transition-duration: 0.5s;
+}
+.skills{
+float: left;
+color: white;
+border: 1px solid transparent;
+padding: 4px;
+font-size: 4vh;
+border-radius: 10px;
+text-decoration: none; transition-duration: 0.5s;
+}
+h3 {
+ font-size: 5vh;
+ transition-duration: 0.5s;
+}
+h3:hover {
+ background-color: aqua;
+ color: black;
+ padding: 4px;
+ border-radius: 10px;
+}
+.proj{
+color: white;
+border: 1px solid transparent;
+width: 100%;
+font-size: 4vh;
+border-radius: 0px;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none; transition-duration: 0.5s;
+}
+#time{
+background-color: white;
+color: black;
+font-size: 3vh;
+height: 5vh;
+border-radius: 10px;
+}
+#btn{
+background-color: black;
+border: 1px solid transparent;
+border-radius: 10px;
+font-size: 4vh;
+outline: none;
+color: white;
+}
+#footer{
+color: white;
+bottom: 0;
+}
+.div{
+border: 1px solid white;
+padding: 4px;
+border-radius: 20px;
+}
+a:hover {
+ background-color: white;
+ color: black;
+ outline: none;
+}
+span{
+color: aqua;
+animation: change 4s alternate infinite;
+}
+@keyframes change{
+0%{
+color: aqua;
+}
+25%{
+color: orange;
+}
+50%{
+color: pink;
+}
+100%{
+color: red;
+}
+}
